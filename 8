@@ -1,0 +1,16 @@
+
+def largest(arr,n):
+    max=arr[0]
+    for i in range (1,n):
+        if arr[i] > max:
+            max = arr[i]
+    return max
+array = []
+n = int(input("Enter the number of elements: "))
+for j in range (0,n):
+    e = int(input())
+    array.append(e)
+
+ans = largest(array,n)
+
+print("Largest number in the array  is: ", ans)
