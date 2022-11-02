@@ -1,0 +1,13 @@
+def sum(array):
+    sum = 0
+    for i in array:
+        sum=sum+i
+    return(sum)
+array = []
+n = int(input("Enter the number of elements: "))
+for j in range (0,n):
+    e = int(input())
+    array.append(e)
+
+
+print("sum of array is : ",sum(array))
